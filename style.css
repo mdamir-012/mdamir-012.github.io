@@ -1,18 +1,19 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Ubuntu:wght@400;500;700&display=swap");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   text-decoration: none;
+  
+
 }
 html {
   scroll-behavior: smooth;
 }
 
 body {
-  background-image: url('images/bg.jpg');
-  background-color: #8f8e8f;
+
+  background-color: rgb(63, 83, 96);
   background-size: cover;
   background-attachment: fixed;
 }
@@ -42,7 +43,7 @@ body {
 
 .navbar.sticky::before {
   content: "";
-  background-color: rgb(30, 27, 14);
+  background-color: rgb(58, 66, 72);
   position: absolute;
   opacity: 1;
   top: -10px;
@@ -66,7 +67,7 @@ body {
 }
 
 .navbar .logo a span {
-  color: rgb(102, 0, 153);
+  color:  rgb(0, 195, 255);
   transition: all 0.3s ease;
 }
 
@@ -91,7 +92,7 @@ body {
   margin-left: 25px;
   transition: color 0.3s;
   /* color: white; */
-  color: rgb(193, 187, 245);
+  color: rgb(7, 199, 243);
   text-decoration: none;
   display: inline-block;
   padding: 15px 20px;
@@ -116,7 +117,7 @@ body {
   color: rgb(197, 192, 245);
 }
 .navbar .menu li a:hover {
-  color: rgb(102, 0, 153);
+  color:  rgb(43, 182, 224);
 }
 
 .navbar.sticky .menu li a:hover {
@@ -171,7 +172,7 @@ body {
 }
 
 #home .home-content .text-3 span {
-  color: rgb(102, 0, 153);
+  color:  rgb(43, 182, 224);
   font-size: 35px;
 }
 
@@ -179,13 +180,13 @@ body {
   display: inline-flex;
   justify-content: space-evenly;
   background: none;
-  color: rgb(102, 0, 153);
+  color: rgb(43, 182, 224);
   margin-top: 20px;
   font-size: 20px;
   font-weight: 500;
   padding: 5px 10px;
   border-radius: 6px;
-  border: 2px solid rgb(102, 0, 153);
+  border: 2px solid  rgb(43, 182, 224);
   transition: all 0.3s ease;
 }
 #home .home-content a:hover {
@@ -206,7 +207,7 @@ body {
 #home .passport img {
   width: 100%;
   border-radius: 10%;
-  border: 1px solid #fff;
+
 }
 
 /* all similar styling */
@@ -234,7 +235,7 @@ footer {
 section .title {
   position: relative;
   text-align: center;
-  color: rgb(102, 0, 153);
+  color:  rgb(43, 182, 224);
   font-size: 40px;
   font-weight: 500;
   margin-bottom: 80px;
@@ -248,7 +249,7 @@ section .title::before {
   left: 50%;
   width: 180px;
   height: 3px;
-  /* background: rgb(102, 0, 153); */
+  /* background:  rgb(43, 182, 224); */
   background-color: #000;
   transform: translateX(-50%);
 }
@@ -259,9 +260,9 @@ section .title::after {
   font-size: 20px;
   color: white;
   padding: 5px;
-  /* border: 1px solid rgb(102, 0, 153); */
+  /* border: 1px solid  rgb(43, 182, 224); */
   border-radius: 3px;
-  background: rgb(102, 0, 153);
+  background:  rgb(43, 182, 224);
   transform: translateX(-50%);
 }
 /* about section styling */
@@ -293,7 +294,7 @@ section .title::after {
   margin-bottom: 10px;
 }
 .about .about-content .right .text span {
-  color: rgb(102, 0, 153);
+  color:  rgb(43, 182, 224);
 }
 .about .about-content .right .paragraph {
   color: black;
@@ -329,7 +330,7 @@ section .title::after {
 }
 .projects .title::after {
   color: white;
-  background: rgb(102, 0, 153);
+  background:  rgb(43, 182, 224);
   content: "What I Did";
 }
 .projects .serv-content .card {
@@ -340,7 +341,7 @@ section .title::after {
   padding: 20px 25px;
   cursor: pointer;
   transition: all 0.3s ease;
-  border: 1px solid rgb(102, 0, 153);
+  border: 1px solid  rgb(43, 182, 224);
   margin-bottom: 30px;
 }
 .projects .serv-content .card:hover {
@@ -352,11 +353,11 @@ section .title::after {
 }
 .projects .serv-content .card i {
   font-size: 50px;
-  color: rgb(102, 0, 153);
+  color:  rgb(43, 182, 224);
   transition: color 0.3s ease;
 }
 .projects .serv-content .card:hover i {
-  color: rgb(102, 0, 153);
+  color:  rgb(43, 182, 224);
 }
 .projects .serv-content .card .text {
   font-size: 25px;
@@ -364,7 +365,7 @@ section .title::after {
   margin: 10px 0 7px 0;
 }
 .projects .serv-content .card:hover {
-  color: rgb(102, 0, 153);
+  color:  rgb(43, 182, 224);
 }
 .projects .projectDetails .projectImg {
   width: 100%;
@@ -374,7 +375,7 @@ section .title::after {
   transition: all 0.3s ease;
 }
 .projects .projectDetails .projectImg:hover {
-  box-shadow: rgb(102, 0, 153) 0px 5px 15px;
+  box-shadow:  rgb(43, 182, 224) 0px 5px 15px;
   transform: scale(1.05);
 }
 .projects .projectDetails .projectImg img {
@@ -392,7 +393,7 @@ section .title::after {
 }
 .projects .projectDetails .projectInfo:hover {
   transform: scale(1.05);
-  box-shadow: rgb(102, 0, 153) 0px 5px 15px;
+  box-shadow:  rgb(43, 182, 224) 0px 5px 15px;
 }
 .projects .projectDetails .projectInfo .project-description {
   text-align: left;
@@ -423,7 +424,7 @@ section .title::after {
   width: 20%;
   height: 35px;
   background-color: rgb(197, 192, 245);
-  color: rgb(102, 0, 153);
+  color:  rgb(43, 182, 224);
   border-radius: 10px;
   font-size: 15px;
   text-align: center;
@@ -437,6 +438,7 @@ section .title::after {
 
 .skills {
   background-size: 2000px;
+  margin-top: -200px;
 }
 
 .skills .title::after {
@@ -458,13 +460,13 @@ section .title::after {
 .skills .skills-content .left a {
   display: inline-block;
   background: none;
-  color: rgb(102, 0, 153);
+  color:  rgb(43, 182, 224);
   margin-top: 20px;
   font-size: 20px;
   font-weight: 500;
   padding: 5px 30px;
   border-radius: 6px;
-  border: 2px solid rgb(102, 0, 153);
+  border: 2px solid  rgb(43, 182, 224);
   transition: all 0.3s ease;
 }
 .skills .skills-content .left a:hover {
@@ -480,7 +482,7 @@ section .title::after {
   transition: all 0.3s ease;
   padding-top: 20px;
   padding-bottom: 20px;
-  border-bottom: 2px solid rgb(102, 0, 153);
+  border-bottom: 2px solid  rgb(43, 182, 224);
 }
 .skills .skills-content .right .icons img {
   transition: all 0.3s ease;
@@ -532,12 +534,18 @@ section .title::after {
 }
 
 #github {
-  margin-top: 50px;
+  margin-top: 10%;
+ 
+}
+
+.projects{
+  margin-top: -15%;
 }
 
 /* contact section styling */
 .contact {
   background-size: 2000px;
+  margin-top: -15%;
 }
 .contact .title::after {
   content: "Get in touch";
@@ -574,7 +582,7 @@ section .title::after {
 }
 #contact-info .contactme p {
   font-size: 20px;
-  /* color: rgb(102, 0, 153); */
+  /* color:  rgb(43, 182, 224); */
 }
 .contact-div {
   width: 25%;
@@ -601,7 +609,7 @@ section .title::after {
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  background: rgb(102, 0, 153);
+  background:  rgb(43, 182, 224);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   color: rgb(197, 192, 245);
   border: none;
@@ -612,7 +620,7 @@ section .title::after {
 
 #btnScrollToTop:active,
 #btnScrollToTop:hover {
-  background: rgb(102, 0, 153);
+  background:  rgb(43, 182, 224);
   box-shadow: 0px 0px 20px black;
 }
 
@@ -844,6 +852,18 @@ section .title::after {
     margin-left: 150px;
     padding-top: 200px;
     width: 350%;
+  }
+}
+@media (min-width: 0px) and (max-width: 250px) {
+ 
+  .serv-content {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  #home .passport {
+    margin-left: 150px;
+    padding-top: 200px;
+    width: 300%;
   }
 }
 @media (min-width: 641px) and (max-width: 1007px) {
